@@ -1,0 +1,30 @@
+{
+  "name": "tetra-bot",
+  "version": "1.0.0",
+  "description": "A custom Discord bot to show your tetra league stats which you can add to any server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piniondevs/tetra-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piniondevs/tetra-bot/issues"
+  },
+  "homepage": "https://github.com/piniondevs/tetra-bot#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
