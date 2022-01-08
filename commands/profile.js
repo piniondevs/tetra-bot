@@ -2,8 +2,9 @@ const axios = require('axios');
 
 const Loggy = require("../lib/logger");
 const genericError = require("../utils/genericError");
-const ErrorEmbed = require("../utils/errorEmbed");
 const createProfileEmbed = require('../lib/createProfileEmbed');
+const Links = require('../linkSchema');
+const verifyLink = require('../lib/verifyLink');
 
 const logger = new Loggy();
 
@@ -18,12 +19,9 @@ module.exports = {
       const targetUser = baseContent.join(" ");
 
       if (!targetUser) {
-        message.channel.send(
-          new ErrorEmbed(
-            "No username provided",
-            "You need to provide a tetrio account username to see their stats."
-          )
-        );
+        const user = await verifyLink(message);
+        if (!user) return;
+        // Ill do shit here later
         return;
       }
 
