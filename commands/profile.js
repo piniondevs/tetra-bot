@@ -3,7 +3,6 @@ const axios = require('axios');
 const Loggy = require("../lib/logger");
 const genericError = require("../utils/genericError");
 const createProfileEmbed = require('../lib/createProfileEmbed');
-const Links = require('../linkSchema');
 const verifyLink = require('../lib/verifyLink');
 
 const logger = new Loggy();
