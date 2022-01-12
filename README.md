@@ -3,7 +3,7 @@
 I am working on this bot for fun and I might stop work on this anytime. So if you do decide to add this bot to your server be prepared to lose some features in the case that I decide to stop working on this bot.
 
 ## TODO
-- [ ] Profile
+- [x] Profile
 - [ ] Rank
 - [ ] XP
 - [ ] ELO
@@ -11,7 +11,7 @@ I am working on this bot for fun and I might stop work on this anytime. So if yo
 - [ ] Progression
 - [ ] Stats
 - [ ] Games
-- [ ] Link
+- [x] Link
 - [ ] Unlink
 - [ ] Help
 - [x] Backend
