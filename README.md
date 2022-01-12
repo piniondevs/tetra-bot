@@ -4,9 +4,14 @@ I am working on this bot for fun and I might stop work on this anytime. So if yo
 
 ## TODO
 - [ ] Profile
-- [ ] Link
-- [ ] Unlink
+- [ ] Rank
+- [ ] XP
+- [ ] ELO
 - [ ] Records
 - [ ] Progression
 - [ ] Stats
+- [ ] Games
+- [ ] Link
+- [ ] Unlink
+- [ ] Help
 - [x] Backend
